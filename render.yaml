@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: kitapbot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python kitapbot.py"
+    pythonVersion: 3.11
